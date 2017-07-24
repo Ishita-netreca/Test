@@ -1,0 +1,2 @@
+QPay Request ID
+[StoreID]_[POS No.]_[Payment_No. In Table] { example : PCA017_1_1 }

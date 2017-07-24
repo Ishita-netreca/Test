@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.edit-btn {
+    width: 20px;
+    height: 20px;
+    background-image: url("img/icon_edit.png");
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display : inline-block;
+}
+
+.submit-btn {
+    width: 20px;
+    height: 20px;
+    background-image: url("img/icon_submit.png");
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display : inline-block;
+    cursor: pointer;
+}
+
+.asap-btn {
+    width: 96px;
+    height: 33px;
+    background-image: url("img/icon_asap.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display : inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.edge-btn {
+    width: 96px;
+    height: 33px;
+    background-image: url("img/icon_EDGE.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display : inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+i.check {
+
+}

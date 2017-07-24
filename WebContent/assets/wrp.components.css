@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+}
+
+/* Popups */
+
+/* 타이틀바 없음. 창 바깥쪽을 클릭하면 창 닫힘 */
+body > div.wrp-plain-mini-popup-01 {
+	position: absolute;
+	z-index: 200;
+	width: 100px;
+	height: 100px;
+	-webkit-box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    3px 3px 15px 0px rgba(0, 0, 0, 0.5);
+	box-shadow:         3px 3px 15px 0px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	font-size: 13px;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 10px 15px;
+}
+
+/* Popups */
+
+/* WRP TimePicker */
+input.wrp-timepicker.handled[readonly] {
+	background-color: rgba(255,255,255,1);
+}
+
+body > div#wrp-plain-timepicker-01 {
+	width: 240px;
+	height: 60px;
+}
+
+body > div#wrp-plain-timepicker-01 > div.line {
+	clear: none;
+	float: left;
+	width: 32%;
+	height: 40px;
+	margin-left: 2%;
+	text-align: center;
+}
+
+body > div#wrp-plain-timepicker-01 > div.line:first-of-type {
+	margin-left: 0%;
+}
+
+body > div#wrp-plain-timepicker-01 > div.line > div {
+	width: 100%;
+	height: 20px;
+}
+
+body > div#wrp-plain-timepicker-01 > div.line > select {
+	width: 100%;
+	height: 20px;
+}

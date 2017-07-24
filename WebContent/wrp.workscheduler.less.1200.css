@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+.posone-work-scheduler {
+
+}
+
+.posone-work-scheduler > .select-month-container {
+    text-align: center;
+    height: 32px;
+}
+
+.posone-work-scheduler > .select-month-container > .select-prev-month {
+    float: left;
+    width: 37.5%;
+    height: 100%;
+    text-align: right;
+    background-image: url("img/icon_prev.png");
+    background-position: right center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.posone-work-scheduler > .select-month-container > .select-next-month {
+    float: right;
+    width: 37.5%;
+    height: 100%;
+    background-image: url("img/icon_next.png");
+    background-position: left center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.posone-work-scheduler > .select-month-container > .month-info {
+    margin-left: 37.6%;
+    margin-right: 37.6%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.posone-work-scheduler > .schedule-list-container {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row {
+    display: table-row;
+    height: 60px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row.header {
+    display: table-row;
+    height: 20px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell {
+    display: table-cell;
+    border: rgba(217, 217, 217, 1) 1px solid;
+    vertical-align: top;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell:nth-of-type(1){
+   width: 78px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell:nth-of-type(1) > span {
+    display: block;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell:nth-of-type(1) > span:nth-of-type(2n+1){
+    font-size: 9px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell:nth-of-type(1) > span:nth-of-type(2n){
+    font-size: 13px;
+    text-align: right;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell:nth-of-type(2){
+    width: 60px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell.day-info {
+    width: 90px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line {
+    height: 20px;
+    width: 100%;
+    min-height: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 0px 2px;
+    letter-spacing: -0.1px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line > .value {
+    display: inline-block;
+    width: 35px;
+    height: 18px;
+    background-color: rgba(242, 242, 242, 1);
+    border: rgba(217, 217, 217, 1) 1px solid;
+    font-size: 9px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .date-info {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line > .gauge {
+    height: 20px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: right;
+    width: 0%;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    font-size: 11px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line > .gauge.blue {
+    background-color: rgba(75, 172, 198, 1);
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line > .gauge.green {
+    background-color: rgba(155, 187, 89, 1);
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell.non-work > .date-info {
+     background-color: rgba(0, 0, 0, 1);
+     color: rgba(255, 255, 255, 1);
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell.other-month > .date-info {
+    opacity: 0.3;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .line.label {
+    line-height: 20px;
+    font-size: 9px;
+    padding: 0px;
+    padding-right: 5px;
+    text-align: right;
+    border-bottom: rgba(217, 217, 217, 1) 1px solid;
+    letter-spacing: 0px;
+}
+
+.posone-work-scheduler > .schedule-list-container > .row > .cell > .label:last-of-type {
+    border-bottom: rgba(217, 217, 217, 1) 0px solid;
+}

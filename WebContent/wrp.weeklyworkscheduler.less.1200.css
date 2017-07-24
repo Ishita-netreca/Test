@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.posone-weekly-work-scheduler {
+
+}
+
+.posone-weekly-work-scheduler > .select-week-container {
+    text-align: center;
+    height: 32px;
+}
+
+.posone-weekly-work-scheduler > .select-week-container > .select-prev-month {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+    background-image: url("img/icon_prev.png");
+    background-position: right center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.posone-weekly-work-scheduler > .select-week-container > .select-next-month {
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-image: url("img/icon_next.png");
+    background-position: left center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.posone-weekly-work-scheduler > .select-week-container > .week-info {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row {
+    display: table-row;
+    height: 30px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row.header {
+    height: 25px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row:nth-of-type(2n) {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row > .cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 9px;
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row.header > .cell {
+    border-top: rgba(217, 217, 217, 1) 1px solid;
+    border-bottom: rgba(217, 217, 217, 1) 1px solid;
+    font-size: 11px;
+}
+
+.posone-weekly-work-scheduler > .schedule-list-container > .row:last-of-type > .cell {
+    border-bottom: rgba(217, 217, 217, 1) 1px solid;
+}

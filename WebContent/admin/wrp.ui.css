@@ -1,0 +1,87 @@
+div.header-fixed-table {
+    overflow-x: hidden;
+}
+
+div.header-fixed-table table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+div.header-fixed-table table tr {
+    height: 25px;
+}
+
+div.header-fixed-table > div.header {
+
+}
+
+div.header-fixed-table > div.header > table { }
+
+div.header-fixed-table > div.header > table > thead { }
+
+div.header-fixed-table > div.header > table > thead > tr > th {
+    border-bottom: rgba(191,191,191,1) 1px solid;
+}
+
+div.header-fixed-table > div.body {
+    overflow-y: auto;
+    border-bottom: rgba(191,191,191,1) 1px solid;
+}
+
+div.header-fixed-table.fill-height-parent {
+    height: 100%;
+}
+
+div.header-fixed-table.fill-height-parent > div.body {
+    height: calc(100% - 40px) !important;
+}
+
+div.header-fixed-table.fill-height-parent > div.body > div.body {
+    height: 100% !important;
+    overflow-x: hidden !important;
+}
+
+div.header-fixed-table > div.body table { }
+
+div.header-fixed-table > div.body table > thead { }
+
+div.header-fixed-table > div.body table > thead > tr {
+    height: 0px !important;
+}
+
+div.header-fixed-table > div.body table > tbody { }
+
+div.header-fixed-table > div.body table > tbody > tr {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr:nth-of-type(2n) {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr.odd {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr.even {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr.selected {
+    background-color: rgba(191, 191, 191, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr:not(.blank):hover {
+    background-color: rgba(191, 191, 191, 1);
+}
+
+div.header-fixed-table > div.body table > tbody > tr > td {
+    padding: 0px 10px;
+}
+
+div.vsplit-panel {
+	
+}
